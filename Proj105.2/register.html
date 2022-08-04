@@ -1,0 +1,98 @@
+
+
+<body>
+ 
+  <main class="container" id="register-main" >
+    <h2>Register</h2>
+    <p>
+      <label for="pets name">Pets Name:</label>
+      <input type="text" class="form-control" id="petName">
+    </p>
+    <p>
+
+      <label for="First name">Age:</label>
+      <input type="number" class="form-control" id="petAge">
+
+    </p>
+    <p>
+
+      <label for="gender">Gender:</label>
+      <input type="text" class="form-control" id="petGender">
+    </p>
+    
+    <p>
+    <label for="breed">Breed:</label>
+    <input type="text" class="form-control" id="petBreed">
+
+    </p>
+    <p>
+      <label for="type">Pet Type:</label>
+      
+      <select name="type" class="form-control" id="petType">
+        <option value="dog">🐕dog</option>
+        <option value="cat">🐈cat</option>
+        <option value="bird">🐦bird</option>
+        <option value="other">🐾other</option>
+      </select>
+    </p>
+    <p>
+      
+        <label for="services">Services:</label>
+        
+        <select name="service" class="form-control" id="petService">
+            <option value="full">💯full services</option>
+          <option value="shower">🚿Shower</option>
+            <option value="nails">💅🏽Nails</option>
+            <option value="hair">🐩Hair</option>
+            <option value="pads">🧸Pads</option>
+        </select>
+      </p>
+    <p>
+      <label for="owners name">Owners name:</label>
+      <input type="text" class="form-control" id="ownerName">
+    </p>
+    <p>
+      <label for="phone number">Phone:</label>
+      <input type="tel" class="form-control" id="ownerPhone">
+    </p>
+    <button class="btn btn-primary" id="register-btn">Register</button>
+  
+    <section class="container">
+      
+      <div class="search">
+          <input type="text" name="search" id="searchPet" class="form-control search-input">
+          <button id="search-btn" class="btn btn-warning">Search</button>
+      </div>
+      <!--create the table-->
+      <!--<table >
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Breed</th>
+            <th>Service</th>
+            <th>Owner Name</th>
+            <th>Contact Phone</th>
+            <th>Price</th>
+            <th>Type</th>
+          </tr>
+        </thead>
+        <tbody id="petTable">
+  
+        </tbody>
+      </table>-->
+      <div id="pets">
+  
+      </div> 
+      <p id="profits">
+  
+      </p>
+      
+    </section>
+  </main>
+  
+  <div id="show"></div>
+</body>
+
+    
