@@ -89,8 +89,6 @@ h3 {
 #about-main{
   background-color: rgb(219, 176, 119);
   height: 40rem;
-  margin-left: 50rem;
-  margin-right: 50rem;
   margin-bottom: 3rem;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.619);
   transition: all .5s ease-in-out;
@@ -98,8 +96,8 @@ h3 {
 }
 #about-main:hover {
   transform: scale(1.05);
-  margin-left: 50rem;
-  margin-right: 50rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
   box-shadow: 20px 20px 15px 15px rgba(0, 0, 0, 0.79);
   transition: .5s ease-in-out;
 }
